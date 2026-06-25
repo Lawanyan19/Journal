@@ -14,7 +14,7 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 # Initialisation du client Gemini
 client = genai.Client(api_key=GEMINI_API_KEY)
 
-# Liste des flux RSS (Actualités, Tech, Éco et Musique)
+# Liste des flux RSS (Actualités, Tech, Éco, Musique et Sport)
 SOURCES_RSS = {
     "Le Monde - International": "https://www.lemonde.fr/international/rss_full.xml",
     "France Info - Top Actualités": "https://www.francetvinfo.fr/titres.rss",
